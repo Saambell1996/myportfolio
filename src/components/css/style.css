@@ -1,0 +1,340 @@
+body {
+}
+
+* {
+}
+
+.seperator {
+  margin-top: 60px;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.landing {
+  background: url("./css-images/pixelcitypink.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.skills {
+  height: auto;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about {
+  border-top: 2px solid #cecece;
+  height: auto;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 80px;
+}
+
+.img-logo {
+    width:28px;
+    height:28px;
+}
+
+
+.nav-item a {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  text-shadow: 1px 1px #000000;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+}
+
+.button-hire a {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  text-shadow: 1px 1px #000000;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  background-color: none;
+}
+
+.navbar {
+}
+
+/* .nav-item a:hover {
+    font-size:15px;
+    text-transform: uppercase;
+    margin-left:16px;
+    text-shadow: 1px 1px #000000;
+    font-weight:600;
+    color:grey;
+    transition: 0.2s;
+} */
+@media only screen and (max-width: 475px) {
+  .navbar-brand {
+    display: none !important;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 909px) {
+  .nav-item a {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    text-shadow: 1px 1px #000000;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 818px) {
+  .nav-item a {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    text-shadow: 1px 1px #000000;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+.logo-sub {
+  display: inline-block;
+  color: white;
+  margin-left: 12px;
+  text-shadow: 1px 1px #000000;
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link {
+  color: white !important;
+  transition: 0.2s;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-item a {
+  position: relative;
+}
+
+.btn a {
+  position: relative;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+.nav-item a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.nav-item a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nameContainer {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px #000000;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow: 2px 2px #000000;
+}
+
+.aboutMeTitle {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-holder {
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+}
+
+.icons {
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.img-rounded {
+  border-radius: 2%;
+}
+
+.icon-holder img {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  margin: 0 auto;
+}
+
+.skill-icon {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.card {
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.426);
+  transition: 0.2s;
+  /* box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.226);  */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  cursor: pointer;
+  /* box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.226);  */
+}
+
+.card-container {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+/* ABOUT ME PAGE */
+
+.personal-section {
+  margin-top: 35px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 4px 4px 4px #cecece;
+  
+}
+
+.seperator-line {
+  border-top: 1px solid #cecece;
+  margin-bottom: 30px;
+  margin-top:20px;
+}
+
+.seperator-line-extra {
+    border-top: 2px solid #cecece;
+    margin-bottom: 30px;
+    margin-top:20px;
+  }
+
+.personal-photos {
+  margin-top: 20px;
+}
+
+.personal-photos img {
+  margin-top: 20px;
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.bnq-text {
+    margin-top:35px;
+    margin-right:20px;
+}
+
+.cherry-text {
+
+}
+
+.website-link-button {
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+    margin-top:15px;
+}
+
+.website-link-button a {
+    color:white;
+  
+}
+
+.website-link-button a:hover {
+    color:lightgray;
+  
+}
+
+.small-container {
+  width:220px;
+    float:right;
+    margin-top:40px;
+   
+}
+
+.small-container img {
+  
+  }
+
+
+span {
+  font-weight: bold;
+}
