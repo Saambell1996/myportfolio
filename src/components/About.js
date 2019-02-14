@@ -167,7 +167,7 @@ export default class About extends Component {
                   <Row>
                       
                     <Col md="5">
-                     <img src="/images/tg.jpg" class="img-fluid"></img>
+                     <img src="images/tg.jpg" class="img-fluid"></img>
                      <div className="website-link-button">
                      <Button color="dark">
                      <a href="https://saambell1996.github.io/index.html">Link to site</a>
@@ -199,7 +199,7 @@ export default class About extends Component {
                   <Row>
                       
                     <Col md="5">
-                     <img src="/images/XR.png" class="img-fluid"></img>
+                     <img src="images/XR.png" class="img-fluid"></img>
                      
                     </Col>
                     <Col md="7">

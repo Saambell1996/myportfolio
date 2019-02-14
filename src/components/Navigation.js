@@ -35,7 +35,7 @@ export class Navigation extends Component {
       <div className="nav-container">
         <Navbar dark expand="md">
           <NavbarBrand href="/">
-            <img src="/images/accenture.png" class="img-logo" />
+            <img src="images/accenture.png" class="img-logo" />
             <div className="logo-sub">Sam Bell | Accenture</div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
