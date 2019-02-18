@@ -55,10 +55,9 @@ body {
 }
 
 .img-logo {
-    width:28px;
-    height:28px;
+  width: 28px;
+  height: 28px;
 }
-
 
 .nav-item a {
   font-size: 14px;
@@ -268,21 +267,20 @@ body {
   margin-top: 35px;
   background-color: white;
   padding: 30px;
-  box-shadow: 4px 4px 4px #cecece;
-  
+  box-shadow: 1px 1px 1px #cecece;
 }
 
 .seperator-line {
   border-top: 1px solid #cecece;
   margin-bottom: 30px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .seperator-line-extra {
-    border-top: 2px solid #cecece;
-    margin-bottom: 30px;
-    margin-top:20px;
-  }
+  border-top: 2px solid #cecece;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
 
 .personal-photos {
   margin-top: 20px;
@@ -298,80 +296,73 @@ body {
 }
 
 .bnq-text {
-    margin-top:35px;
-    margin-right:20px;
+  margin-top: 35px;
+  margin-right: 20px;
 }
 
 .cherry-text {
-
 }
 
 .website-link-button {
-    margin: 0 auto;
-    text-align: center;
-    color:white;
-    margin-top:15px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
 }
 
 .website-link-button a {
-    color:white;
-  
+  color: white;
 }
 
 .website-link-button a:hover {
-    color:lightgray;
-  
+  color: lightgray;
 }
 
 .small-container {
-  width:220px;
-    float:right;
-    margin-top:40px;
-   
+  width: 220px;
+  float: right;
+  margin-top: 40px;
 }
 
 .small-container img {
-  
-  }
+}
 
-  .modal-button-holder {
-    text-align: center;
-    margin: 0 auto;
-    margin-top:20px;
-  }
+.modal-button-holder {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
-  .modal-video-holder {
-    text-align: center;
-    margin: 0 auto;
-  }
+.modal-video-holder {
+  text-align: center;
+  margin: 0 auto;
+}
 
-  .actual-center {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 60px;
-    right: 0;
-    margin: auto;
-  }
+.actual-center {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 60px;
+  right: 0;
+  margin: auto;
+}
 
-  .cube-container {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 60px;
-    right: 0;
-    margin: auto;
-  }
-
+.cube-container {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 60px;
+  right: 0;
+  margin: auto;
+}
 
 span {
   font-weight: bold;
 }
-
 
 .sk-folding-cube {
   margin: 20px auto;
@@ -379,7 +370,7 @@ span {
   height: 40px;
   position: relative;
   -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
 }
 
 .sk-folding-cube .sk-cube {
@@ -388,11 +379,11 @@ span {
   height: 50%;
   position: relative;
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1); 
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .sk-folding-cube .sk-cube:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -400,63 +391,141 @@ span {
   height: 100%;
   background-color: #333;
   -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
   -webkit-transform-origin: 100% 100%;
-      -ms-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
 .sk-folding-cube .sk-cube2 {
   -webkit-transform: scale(1.1) rotateZ(90deg);
-          transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
 }
 .sk-folding-cube .sk-cube3 {
   -webkit-transform: scale(1.1) rotateZ(180deg);
-          transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
 }
 .sk-folding-cube .sk-cube4 {
   -webkit-transform: scale(1.1) rotateZ(270deg);
-          transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
 }
 .sk-folding-cube .sk-cube2:before {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 .sk-folding-cube .sk-cube3:before {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s; 
+  animation-delay: 0.6s;
 }
 .sk-folding-cube .sk-cube4:before {
   -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
 @-webkit-keyframes sk-foldCubeAngle {
-  0%, 10% {
+  0%,
+  10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
-  } 25%, 75% {
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
-  } 90%, 100% {
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
-  } 
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
 }
 
 @keyframes sk-foldCubeAngle {
-  0%, 10% {
+  0%,
+  10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
-  } 25%, 75% {
-    -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
-  } 90%, 100% {
-    -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
   }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+/* CONTACT ME PAGE */
+
+.contact {
+  border-top: 2px solid #cecece;
+  height: auto;
+  background: #0f2027;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  padding-top: 80px;
+
+}
+
+.contact-form {
+  background-color:white;
+  margin: 0 auto;
+  margin-top:30px;
+  padding:50px;
+  width:800px;
+ 
+}
+
+.form-container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top:30px;
+ 
+}
+
+
+.form {
+  padding:25px;
+}
+
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #2C5263;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top:10px;
+  transition:0.3s;
+}
+input[type=submit]:hover {
+  background-color: #3f7289;
+  transition:0.3s;
+}
+
+.getintouch {
+  padding:20px;
 }

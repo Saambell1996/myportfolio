@@ -62,7 +62,7 @@ export default class About extends Component {
                       <CardHeader>Sam Bell</CardHeader>
                       <CardBody>
                         <img
-                          src="images/human.jpg"
+                          src="images/pp.jpg"
                           class="img-fluid img-rounded"
                         />
                       </CardBody>
@@ -241,6 +241,7 @@ export default class About extends Component {
                 </div>
               </div>
             </Container>
+            <br></br>
           </ScrollAnimation>
         </div>
         <div>
@@ -252,20 +253,19 @@ export default class About extends Component {
             <ModalHeader toggle={this.toggle}>Cherry Picker</ModalHeader>
             <ModalBody>
               <div className="modal-video-holder">
-              
                 {this.state.loading ? (
                   <div className="cube-container">
-                 <div className="sk-folding-cube">
-                 <div className="sk-cube1 sk-cube"></div>
-                 <div className="sk-cube2 sk-cube"></div>
-                 <div className="sk-cube4 sk-cube"></div>
-                 <div className="sk-cube3 sk-cube"></div>
-               </div>
-               </div>
+                    <div className="sk-folding-cube">
+                      <div className="sk-cube1 sk-cube" />
+                      <div className="sk-cube2 sk-cube" />
+                      <div className="sk-cube4 sk-cube" />
+                      <div className="sk-cube3 sk-cube" />
+                    </div>
+                  </div>
                 ) : null}
                 <iframe
-                  onLoad={this.hideSpinner}
                   id="kmsembed-0_0gfeleq8"
+                  onLoad={this.hideSpinner}
                   width="400"
                   height="300"
                   src="https://mediaexchange.accenture.com/embed/secure/iframe/entryId/0_0gfeleq8/uiConfId/27188232"
@@ -280,7 +280,6 @@ export default class About extends Component {
               </div>
             </ModalBody>
             <ModalFooter>
-            
               <Button color="secondary" onClick={this.toggle}>
                 Close
               </Button>

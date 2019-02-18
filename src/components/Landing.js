@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import Title from "./Title";
 import Skills from "./Skills";
 import About from "./About";
+import Contact from "./Contact";
 import {
   Col,
   Row,
@@ -30,6 +31,7 @@ export default class Landing extends Component {
         </div>
         <Skills />
         <About/>
+        <Contact/>
       </React.Fragment>
     );
   }

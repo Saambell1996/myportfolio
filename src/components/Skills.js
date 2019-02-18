@@ -10,9 +10,12 @@ import {
   CardFooter,
   CardImg
 } from "reactstrap";
+
+import { ScrollTo } from "react-scroll-to";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default class Skills extends Component {
+  myRef = React.createRef();
   render() {
     return (
       <React.Fragment>
