@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import { Col, Row, Container, Button } from "reactstrap";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import ScrollAnimation from 'react-animate-on-scroll';
+library.add(faCode)
 
 export default class Title extends Component {
   render() {
@@ -12,7 +17,7 @@ export default class Title extends Component {
             <div className="icon-holder">
               <div className="icons">
                 <div className="skill-icon">
-                  <img src="images/coding.png" />
+                <FontAwesomeIcon icon="code" size="lg" />
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@ body {
 }
 .landing {
   background: url("./css-images/pixelcitypink.jpg");
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
 }
 
@@ -93,6 +93,8 @@ body {
     transition: 0.2s;
 } */
 @media only screen and (max-width: 475px) {
+
+ 
   .navbar-brand {
     display: none !important;
   }
@@ -100,6 +102,8 @@ body {
   .card {
     margin-bottom: 30px;
   }
+
+  
 }
 
 @media only screen and (max-width: 909px) {
@@ -239,6 +243,9 @@ body {
   margin: 0 auto;
   text-align: center;
   display: inline-block;
+  color:white;
+  margin-top:5px;
+
 }
 
 .card {
