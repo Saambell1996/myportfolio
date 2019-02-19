@@ -11,15 +11,18 @@ import {
   FormText
 } from "reactstrap";
 import ScrollAnimation from "react-animate-on-scroll";
+import { ScrollTo } from "react-scroll-to";
 
 export default class Contact extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="contact">
+        <div id="contact-scroll"></div>
           <div className="name">
             <h1>Contact</h1>
           </div>
+ 
           <div class="subtitle">Lorum Ipsum</div>
           <ScrollAnimation
             animateIn="bounceInRight"
@@ -104,6 +107,10 @@ export default class Contact extends Component {
               </Col>
             </Row>
           </ScrollAnimation>
+         
+
+    
+
         </div>
       </React.Fragment>
     );

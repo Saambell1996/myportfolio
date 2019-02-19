@@ -20,20 +20,25 @@ export default class Skills extends Component {
     return (
       <React.Fragment>
         <div className="skills">
+        
           <Container>
             <Row>
               <Col md="12">
+             
                 <div className="name">
                   <br />
                   <h1>Skills</h1>
                 </div>
                 <div className="subtitle">Front End Capabilities/Other</div>
+               
                 <ScrollAnimation animateIn="bounceInRight" duration="0.8" animateOut="bounceOutLeft" duration="0.8">
                 <Container>
                   {/* First Row  */}
+                
                  
                   <div className="card-container">
                     <Row>
+                    <div id="skills"></div>
                       <Col md="3" sm="6">
                        
                           <Card>

@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://Saambell1996.github.io/myportfolio/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
@@ -13,6 +16,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.3",
     "react-scroll": "^1.7.10",
+    "react-scroll-into-view": "^1.5.0",
     "react-scroll-to": "^2.0.5",
     "react-spinkit": "^3.0.0",
     "reactstrap": "^7.1.0"

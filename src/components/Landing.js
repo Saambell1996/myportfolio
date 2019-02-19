@@ -5,6 +5,7 @@ import Title from "./Title";
 import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
+import Arrow from "./Arrow";
 import {
   Col,
   Row,
@@ -16,6 +17,7 @@ import {
   CardFooter,
   CardImg
 } from "reactstrap";
+import ScrollIntoView from 'react-scroll-into-view'
 
 export default class Landing extends Component {
   constructor(props) {
@@ -29,9 +31,10 @@ export default class Landing extends Component {
           <Navigation />
           <Title />
         </div>
-        <Skills />
+        <Skills/>
         <About/>
         <Contact/>
+        <Arrow/>
       </React.Fragment>
     );
   }

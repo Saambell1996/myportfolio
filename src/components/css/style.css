@@ -36,7 +36,7 @@ body {
 }
 
 .about {
-  border-top: 2px solid #cecece;
+  border-top: 1px solid #cecece;
   height: auto;
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -277,7 +277,7 @@ body {
 }
 
 .seperator-line-extra {
-  border-top: 2px solid #cecece;
+  border-top: 1px solid #cecece;
   margin-bottom: 30px;
   margin-top: 20px;
 }
@@ -465,12 +465,31 @@ span {
 /* CONTACT ME PAGE */
 
 .contact {
-  border-top: 2px solid #cecece;
   height: auto;
   background: #0f2027;
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   padding-top: 80px;
 
+}
+
+.contact-button {
+  color: white;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .contact-form {
@@ -529,3 +548,33 @@ input[type=submit]:hover {
 .getintouch {
   padding:20px;
 }
+
+.scroll {
+  opacity: 0.3;
+  background-color: #2A5060;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  border: none;
+  transition:0.3s;
+}
+
+.scroll:hover {
+  cursor: pointer;
+  opacity:1;
+  transition:0.3s;
+  
+  
+ }
+
+.up-arrow {
+  color:white;
+  opacity:1;
+ text-align: center;
+ margin-top:8px;
+ 
+}
+

@@ -45,9 +45,11 @@ export default class About extends Component {
       <React.Fragment>
         <div className="about">
           <div className="name">
+            <div id="about-me" />
             <h1>About Me</h1>
           </div>
           <div class="subtitle">Lorum Ipsum</div>
+
           <ScrollAnimation
             animateIn="bounceInLeft"
             duration="0.8"
@@ -60,6 +62,7 @@ export default class About extends Component {
                   <Col md="4">
                     <Card>
                       <CardHeader>Sam Bell</CardHeader>
+
                       <CardBody>
                         <img
                           src="images/pp.jpg"
@@ -177,13 +180,56 @@ export default class About extends Component {
                       </div>
                     </Col>
                   </Row>
+                  <div className="seperator-line" />
+                  <Row>
+                    <Col md="5">
+                      <div class="sketchfab-embed-wrapper">
+                        <iframe
+                          width="345"
+                          height="240"
+                          src="https://sketchfab.com/models/833a44cb4b7147ac83f050972e4ccfe0/embed"
+                          frameborder="0"
+                          allow="autoplay; fullscreen; vr"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                        />
+                      </div>
+                  
+                    </Col>
+                    <Col md="7">
+                      <div className="cherry-text">
+                        <h2>Low Poly Models</h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five centuries, but also the leap
+                          into electronic typesetting, remaining essentially
+                          unchanged. It was popularised in the 1960s with the
+                          release of Letraset sheets containing Lorem Ipsum
+                          passages, and more recently with desktop publishing
+                          software like Aldus PageMaker including versions of
+                          Lorem Ipsum.
+                        </p>
+                        <p>
+                        It was popularised in the 1960s with the
+                          release of Letraset sheets containing Lorem Ipsum
+                          passages, and more recently with desktop publishing
+                          software like Aldus PageMaker including versions of
+                          Lorem Ipsum.
+                        </p>
+                      </div>
+                    </Col>
+                  </Row>
                   <div className="seperator-line-extra" />
                   <Row>
                     <Col md="5">
                       <img src="images/tg.jpg" class="img-fluid" />
                       <div className="website-link-button">
                         <Button color="dark">
-                          <a href="https://thievesguild.github.io/index.html">
+                          <a href="https://saambell1996.github.io/">
                             Link to site
                           </a>
                         </Button>
@@ -241,7 +287,7 @@ export default class About extends Component {
                 </div>
               </div>
             </Container>
-            <br></br>
+            <br />
           </ScrollAnimation>
         </div>
         <div>
