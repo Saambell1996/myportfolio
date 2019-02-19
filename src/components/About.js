@@ -183,7 +183,7 @@ export default class About extends Component {
                   <div className="seperator-line" />
                   <Row>
                     <Col md="5">
-                      <div class="sketchfab-embed-wrapper">
+                    <div class="resp-container">
                         <iframe
                           width="345"
                           height="240"
@@ -192,6 +192,7 @@ export default class About extends Component {
                           allow="autoplay; fullscreen; vr"
                           mozallowfullscreen="true"
                           webkitallowfullscreen="true"
+                          className="resp-iframe"
                         />
                       </div>
                   
