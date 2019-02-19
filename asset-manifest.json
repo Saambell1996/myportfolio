@@ -1,17 +1,17 @@
 {
-  "main.css": "/myportfolio/static/css/main.0da9dd56.chunk.css",
-  "main.js": "/myportfolio/static/js/main.e4d492c9.chunk.js",
-  "main.js.map": "/myportfolio/static/js/main.e4d492c9.chunk.js.map",
+  "main.css": "/myportfolio/static/css/main.648b5e08.chunk.css",
+  "main.js": "/myportfolio/static/js/main.7ee3203b.chunk.js",
+  "main.js.map": "/myportfolio/static/js/main.7ee3203b.chunk.js.map",
   "static/css/1.96c589e9.chunk.css": "/myportfolio/static/css/1.96c589e9.chunk.css",
   "static/js/1.eb63a8ad.chunk.js": "/myportfolio/static/js/1.eb63a8ad.chunk.js",
   "static/js/1.eb63a8ad.chunk.js.map": "/myportfolio/static/js/1.eb63a8ad.chunk.js.map",
   "runtime~main.js": "/myportfolio/static/js/runtime~main.6b6f225b.js",
   "runtime~main.js.map": "/myportfolio/static/js/runtime~main.6b6f225b.js.map",
-  "static/css/main.0da9dd56.chunk.css.map": "/myportfolio/static/css/main.0da9dd56.chunk.css.map",
+  "static/css/1.96c589e9.chunk.css.map": "/myportfolio/static/css/1.96c589e9.chunk.css.map",
   "static/media/style.css": "/myportfolio/static/media/pixelcitypink.49dfb41f.jpg",
   "static/media/logo.svg": "/myportfolio/static/media/logo.5d5d9eef.svg",
-  "static/css/1.96c589e9.chunk.css.map": "/myportfolio/static/css/1.96c589e9.chunk.css.map",
+  "static/css/main.648b5e08.chunk.css.map": "/myportfolio/static/css/main.648b5e08.chunk.css.map",
   "index.html": "/myportfolio/index.html",
-  "precache-manifest.29aa4f46dd0e58a97188861402d7c7a1.js": "/myportfolio/precache-manifest.29aa4f46dd0e58a97188861402d7c7a1.js",
+  "precache-manifest.50dcea8af66f5161a71633925ced9c77.js": "/myportfolio/precache-manifest.50dcea8af66f5161a71633925ced9c77.js",
   "service-worker.js": "/myportfolio/service-worker.js"
 }
