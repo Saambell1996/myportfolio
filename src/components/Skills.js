@@ -31,7 +31,7 @@ export default class Skills extends Component {
                 </div>
                 <div className="subtitle">Front End Capabilities/Other</div>
                
-                <ScrollAnimation animateIn="bounceInRight" duration="0.8" animateOut="bounceOutLeft" duration="0.8">
+                <ScrollAnimation animateIn="bounceInRight" duration="1.5" animateOnce="true">
                 <Container>
                   {/* First Row  */}
                 

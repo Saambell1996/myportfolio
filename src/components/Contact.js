@@ -23,13 +23,7 @@ export default class Contact extends Component {
             <h1>Contact</h1>
           </div>
  
-          <div class="subtitle">Lorum Ipsum</div>
-          <ScrollAnimation
-            animateIn="bounceInRight"
-            duration="0.8"
-            animateOut="bounceOutLeft"
-            duration="0.8"
-          >
+          <ScrollAnimation animateIn="bounceInRight" duration="1.5" animateOnce="true">
             <Row>
               <Col md="6">
                 <div className="form-container">
