@@ -1,4 +1,5 @@
 body {
+overflow-x:hidden ;
 }
 
 * {
@@ -490,6 +491,7 @@ span {
   background: #0f2027;
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   padding-top: 80px;
+  padding-bottom:95px;
 
 }
 
@@ -597,5 +599,22 @@ input[type=submit]:hover {
  text-align: center;
  margin-top:8px;
  
+}
+
+
+
+.footer {
+  height: auto;
+  background: #0f2027;
+  background: #252525;
+
+ 
+}
+
+.footer-container {
+  text-align: center;
+  margin: 0 auto;
+  color:white;
+  padding:15px;
 }
 

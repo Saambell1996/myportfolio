@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
 import Arrow from "./Arrow";
+import Footer from "./Footer";
 import {
   Col,
   Row,
@@ -34,6 +35,7 @@ export default class Landing extends Component {
         <Skills/>
         <About/>
         <Contact/>
+        <Footer/>
         <Arrow/>
       </React.Fragment>
     );

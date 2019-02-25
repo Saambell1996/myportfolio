@@ -106,6 +106,7 @@ export default class Contact extends Component {
     
 
         </div>
+       
       </React.Fragment>
     );
   }
