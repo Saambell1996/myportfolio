@@ -221,7 +221,7 @@ export default class About extends Component {
                   <div className="seperator-line-extra" />
                   <Row>
                     <Col md="5">
-                      <img src="images/tg.jpg" class="img-fluid" />
+                      <img src="images/persona.gif" class="img-fluid" />
                       <div className="website-link-button">
                         <Button color="dark">
                           <a href="https://saambell1996.github.io/">
