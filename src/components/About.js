@@ -48,7 +48,7 @@ export default class About extends Component {
             <div id="about-me" />
             <h1>About Me</h1>
           </div>
-          <div class="subtitle">Lorum Ipsum</div>
+       
 
           <ScrollAnimation animateIn="bounceInRight" duration="1.5" animateOnce="true">
             <Container>

@@ -12,40 +12,31 @@ import {
 } from "reactstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import { ScrollTo } from "react-scroll-to";
-import axios from "axios";
+import * as emailjs from 'emailjs-com';
 
-const API_PATH = "http://localhost:3001/index.php";
+
 
 export default class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      fname: "",
-      lname: "",
-      email: "",
-      message: "",
-      mailSent: false,
-      error: null
+  
     };
   }
 
-  handleFormSubmit = e => {
-    e.preventDefault();
-    axios({
-      method: "post",
-      url: `${API_PATH}`,
-      headers: { "content-type": "application/json" },
-      data: this.state
-    })
-      .then(result => {
-        this.setState({
-          mailSent: result.data.sent
-        });
-      })
-      .catch(error => this.setState({ error: error.message }));
-  };
+  
+
+
 
   render() {
+
+    window.onload = function() {
+      document.getElementById('form-send').addEventListener('submit', function(event) {
+          event.preventDefault();
+          this.contact_number.value = Math.random() * 100000 | 0;
+          emailjs.sendForm('contact_service', 'contact_form', this);
+      });
+  }
     return (
       <React.Fragment>
         <div className="contact">
@@ -97,70 +88,48 @@ export default class Contact extends Component {
                 <div className="form-container">
                   <Row>
                     <Col>
-                      <form action="#" className="form">
+                      <form id="form-send">
                         <label>First Name</label>
                         <input
                           type="text"
                           id="fname"
-                          name="firstname"
+                          name="user_name"
                           placeholder="Your Name.."
-                          value={this.state.fname}
-                          onChange={e =>
-                            this.setState({
-                              fname: e.target.value
-                            })
-                          }
+                       
                         />
                         <label>Last Name</label>
                         <input
                           type="text"
                           id="lname"
-                          name="lastname"
+                          name="last_name"
                           placeholder="Your Last Name.."
-                          value={this.state.lname}
-                          onChange={e =>
-                            this.setState({
-                              lname: e.target.value
-                            })
-                          }
+                        
                         />
 
                         <label>Email</label>
                         <input
                           type="email"
                           id="email"
-                          name="email"
+                          name="user_email"
                           placeholder="Your E-mail"
-                          value={this.state.email}
-                          onChange={e =>
-                            this.setState({
-                              email: e.target.value
-                            })
-                          }
+                        
                         />
+                        <input type="hidden" name="contact_number"></input>
 
                         <label>Subject</label>
                         <textarea
                           id="subject"
-                          name="subject"
+                          name="subject_text"
                           placeholder="Write Something.."
-                          value={this.state.message}
-                          onChange={e =>
-                            this.setState({
-                              message: e.target.value
-                            })
-                          }
+                       
                         />
                         <br />
                         <input
                           type="submit"
-                          onClick={e => this.handleFormSubmit(e)}
-                          value="Submit"
+                         value="Submit"
                         />
                         <div>
-                          {this.state.mailSent && (
-                            <div>Thank you for contacting us.</div>
-                          )}
+                        
                         </div>
                       </form>
                     </Col>
